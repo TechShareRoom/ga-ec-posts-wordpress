@@ -13,3 +13,11 @@ onclick="productObject('<?php the_title(); ?>','<?php the_ID(); ?>','<?php echo 
 ```
 
 El fichero cambia según el tema, en el tema flymag de WordPress por ejemplo, es el content.php
+
+
+## REQUISITOS
+
+- Necesitas tener instalado Google Analytics en WordPress para que funcione el plugin
+- Necesitas tener activada la parte de Comercio Avanzado de Google Analytics
+	- Para activar esto accede a la **Administrar** de Google Analytics, en la columna de **Vistas** en **Configuración del Comercio Electrónico** activar las dos opciones y guardar.
+- Insertar el código del *onclick* arriba dado en los enlaces a los artículos
