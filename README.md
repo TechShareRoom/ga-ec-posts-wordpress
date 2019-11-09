@@ -10,5 +10,5 @@ onclick="productObject('<?php the_title(); ?>','<?php the_ID(); ?>','<?php echo 
 						echo $tag->name . ', '; 
 					  }
 					} ?>','<?php wp_title(); ?>','<?php the_permalink(); ?>')"
-          ´´´
+          ```
 El fichero cambia según el tema, en el tema flymag de WordPress por ejemplo, es el content.php
