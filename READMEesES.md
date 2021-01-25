@@ -1,4 +1,4 @@
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=techshareroom.ga-ec-posts-wordpress)
+﻿![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=techshareroom.ga-ec-posts-wordpress)
 
 <a href="https://github.com/techshareroom/ga-ec-posts-wordpress/blob/main/READMEesES.md" target="_blank"><img src="https://raw.githubusercontent.com/techshareroom/ga-ec-posts-wordpress/main/images/languages/spain.png" width="80" img align="right"></a>
 <a href="https://github.com/techshareroom/ga-ec-posts-wordpress" target="_blank"><img src="https://raw.githubusercontent.com/techshareroom/ga-ec-posts-wordpress/main/images/languages/united-kingdom.png" width="80" style="vertical-align:middle;margin:0px 50px" img align="right"></a>
@@ -6,15 +6,15 @@
 <img src="https://raw.githubusercontent.com/techshareroom/ga-ec-posts-wordpress/main/images/ga-ec-posts-wordpress.png" width="80"> ga-ec-posts-wordpress
 =============================================
 
-Plugin to implement impressions and clicks of advanced Analytics commerce in WordPress posts
+Plugin para implementar impresiones y clics del comercio avanzado de Analytics en los posts de WordPress
 
-Forked from [here](https://github.com/queseo/ga-ec-posts-wordpress)
+Forkeado de [aquí](https://github.com/queseo/ga-ec-posts-wordpress)
 
 <a href="https://discord.gg/wfm7Jrj">
 <img src="https://discordapp.com/api/guilds/750051000664064141/widget.png?style=banner2" alt="Discord Banner 2"/>
 </a>
 
-For now, it's necessary to insert the following onclick event in the links of the file where the posts loop is called:
+Por ahora es necesario insertar en los enlaces del archivo donde se llama al loop de los posts, el siguiente evento onclick:
 ```
 onclick="productObject('<?php the_title(); ?>','<?php the_ID(); ?>','<?php echo get_the_author_meta('ID'); ?>','<?php  $cat = get_the_category(); echo $cat[0]->cat_name; ?>','<?php $posttags = get_the_tags();
 					if ($posttags) {i
@@ -24,23 +24,23 @@ onclick="productObject('<?php the_title(); ?>','<?php the_ID(); ?>','<?php echo 
 					} ?>','<?php wp_title(); ?>','<?php the_permalink(); ?>')"
 ```
 
-The file changes depending on the theme, in the flymag WordPress theme for example, it is the content.php
+El fichero cambia según el tema, en el tema flymag de WordPress por ejemplo, es el content.php
 
 ## REQUISITOS
 
-- You need to have Google Analytics installed in WordPress for the plugin to work
-- You need to have the Advanced Trade part of Google Analytics activated
-	- To activate this, access the **Manage** of Google Analytics, in the **Views** column in **Electronic Commerce Configuration** activate the two options and save.
-- Insert the code of the *onclick* above given in the links to the articles
+- Necesitas tener instalado Google Analytics en WordPress para que funcione el plugin
+- Necesitas tener activada la parte de Comercio Avanzado de Google Analytics
+	- Para activar esto accede a la **Administrar** de Google Analytics, en la columna de **Vistas** en **Configuración del Comercio Electrónico** activar las dos opciones y guardar.
+- Insertar el código del *onclick* arriba dado en los enlaces a los artículos
 
-# TO DO
+# PARA HACER
 
-Pendant
+Pendiente
 
-# DONE
+# REALIZADO
 
-Pendant
+Pendiente
 
-# Contributors
+# Contribuidores
 
 * [queseo](https://github.com/queseo)
