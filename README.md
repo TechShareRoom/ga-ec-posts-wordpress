@@ -26,7 +26,7 @@ onclick="productObject('<?php the_title(); ?>','<?php the_ID(); ?>','<?php echo 
 
 The file changes depending on the theme, in the flymag WordPress theme for example, it is the content.php
 
-## REQUISITOS
+## REQUIREMENTS
 
 - You need to have Google Analytics installed in WordPress for the plugin to work
 - You need to have the Advanced Trade part of Google Analytics activated
