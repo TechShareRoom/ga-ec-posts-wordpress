@@ -1,5 +1,3 @@
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=techshareroom.ga-ec-posts-wordpress)
-
 <a href="https://github.com/techshareroom/ga-ec-posts-wordpress/blob/master/READMEesES.md" target="_blank"><img src="https://raw.githubusercontent.com/techshareroom/ga-ec-posts-wordpress/master/images/languages/spain.png" width="80" img align="right"></a>
 <a href="https://github.com/techshareroom/ga-ec-posts-wordpress" target="_blank"><img src="https://raw.githubusercontent.com/techshareroom/ga-ec-posts-wordpress/master/images/languages/united-kingdom.png" width="80" style="vertical-align:middle;margin:0px 50px" img align="right"></a>
 
